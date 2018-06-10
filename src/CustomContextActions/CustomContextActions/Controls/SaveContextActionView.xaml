@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  HeightRequest="150"
+  WidthRequest="120"
+  x:Class="CustomContextActions.Controls.SaveContextActionView">
+    <ContentView.Content>
+        <Grid BackgroundColor="YellowGreen">
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                <Image HorizontalOptions="Center" HeightRequest="30" WidthRequest="30" Source="baseline_save_alt_white" />
+                <Label HeightRequest="20" HorizontalTextAlignment="Center" FontFamily="HelveticaNeue-Light" FontSize="18" TextColor="White" Text="Save" />
+            </StackLayout>
+        </Grid>
+    </ContentView.Content>
+</ContentView>
